@@ -15,7 +15,7 @@ resource "aws_instance" "nodejs_app" {
               sudo yum update -y
               sudo yum install -y nodejs
               sudo yum install -y git
-              git clone https://github.com/your-username/your-repo.git /home/ec2-user/app
+              git clone https://github.com/deadmedusa/nodejs.git /home/ec2-user/app
               cd /home/ec2-user/app
               npm install
               npm start
